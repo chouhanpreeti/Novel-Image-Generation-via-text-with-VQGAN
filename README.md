@@ -10,7 +10,9 @@ Novel image generation helps to create synthetic yet realistic images that are s
 ![model architecture](https://github.com/chouhanpreeti/Novel-Image-Generation-via-text-with-VQGAN/blob/master/Outputs/architecture.png)
 <p class="text-justify"> VQGAN (Vector Quantized Generative Adversarial Network) employs a two-stage structure by learning an intermediary representation before feeding it to a transformer. And, instead of downsampling the image, it uses a codebook to represent visual parts.  </p>
 <br>
-![system flowchart](https://github.com/chouhanpreeti/Novel-Image-Generation-via-text-with-VQGAN/blob/master/Outputs/flowchart.png)
+<p>
+    <img src="/Outputs/flowchart.png" width="400" height="400" />
+</p>
 <p class="text-justify"> Both the models are separate working in tandem. The way they work is that VQGAN generates the images, while Transformer judges how well an image matches the text prompt. This interaction guides the generator to produce more accurate images.</p>
 
 <br>
@@ -26,21 +28,29 @@ Novel image generation helps to create synthetic yet realistic images that are s
 
 ### Result Samples ###
 <br>
-![output4](https://github.com/chouhanpreeti/Novel-Image-Generation-via-text-with-VQGAN/blob/master/Outputs/output.gif)
+<p>
+    <img src="/Outputs/output.gif" width="400" height="400" />
+</p>
 <p class="text-justify">A pink waterfall </p>
 <br>
 
 <br>
-![output1](https://github.com/chouhanpreeti/Novel-Image-Generation-via-text-with-VQGAN/blob/master/Outputs/res_output1a.gif)
+<p>
+    <img src="/Outputs/res_output1a.gif" width="400" height="400" />
+</p>
 <p class="text-justify"> A bunch of red roses </p>
 <br>
 
-![output2](https://github.com/chouhanpreeti/Novel-Image-Generation-via-text-with-VQGAN/blob/master/Outputs/res_output5.gif)
+<p>
+    <img src="/Outputs/res_output5.gif" width="400" height="400" />
+</p>
 <p class="text-justify">A smiling ghost </p>
 <br>
 
 <br>
-![output3](https://github.com/chouhanpreeti/Novel-Image-Generation-via-text-with-VQGAN/blob/master/Outputs/res_output2.gif)
+<p>
+    <img src="/Outputs/res_output2.gif" width="400" height="400" />
+</p>
 <p class="text-justify">A skull with blue eyes </p>
 <br>
 
