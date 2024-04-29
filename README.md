@@ -4,6 +4,10 @@ Novel Image Generation via text prompts using VQGAN (Vector Quantized Generative
 
 ## Project Overview ##
 
+Novel image generation helps to create synthetic yet realistic images that are semantically meaningful and diverse. It has multiple applications like synthesizing 3D shapes, and datasets for improved deep learning model training, medical diagnosis, creating and visualizing synthetic 3D images from 2D instances and vice versa for better scene analysis, and modeling objects for animation, games, and VR/AR. Traditional geometric modeling provides impressive results but at the hands of an experienced person. Manual processes require exact and accurate input, and different tools usually have steep learning curves. Hence, creating compelling 3D models can take lots of time. This project aims to provide an alternative approach to geometric modeling with Machine learning. The goal is to use generative modeling for geometric modeling to generalize from training data while generating new designs and shapes via text prompts entered by the user. This project overall combiness the efficiency of convolutional approaches with the expressive power of transformers. The dataset used here is COCO (Common Object in Context) from Microsoft. The wide variety of objects in the dataset allows the model to generalize well to the user inputs.
+
+
+
 ## Dataset ##
 Common Object in Context (COCO) Dataset is used for the model training to increase the model generalization to text prompts. 
 https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset
