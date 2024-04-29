@@ -10,7 +10,7 @@ Novel image generation helps to create synthetic yet realistic images that are s
 ![model architecture](https://github.com/chouhanpreeti/Novel-Image-Generation-via-text-with-VQGAN/blob/master/Outputs/architecture.png)
 <p class="text-justify"> VQGAN (Vector Quantized Generative Adversarial Network) employs a two-stage structure by learning an intermediary representation before feeding it to a transformer. And, instead of downsampling the image, it uses a codebook to represent visual parts.  </p>
 <br>
-![flowchart](https://github.com/chouhanpreeti/Novel-Image-Generation-via-text-with-VQGAN/blob/master/Outputs/flowchart.png)
+![flowchart](https://raw.githubusercontent.com/chouhanpreeti/Novel-Image-Generation-via-text-with-VQGAN/blob/master/Outputs/flowchart.png)
 <p class="text-justify"> Both the models are separate working in tandem. The way they work is that VQGAN generates the images, while Transformer judges how well an image matches the text prompt. This interaction guides the generator to produce more accurate images.</p>
 
 <br>
